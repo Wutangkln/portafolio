@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+
+}
+
+body div{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+img{
+    width: 250px;
+    margin: 50px;
+}
+
+#textContainer {
+    padding: 20px;
+}
+
+

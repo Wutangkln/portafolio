@@ -1,0 +1,59 @@
+body{
+   font-family: 'Verdana';
+}
+
+nav{
+    background-color: #051B54;
+}
+
+#promociones{
+    background-color: #62DAD3;
+    width: 100%;
+    height: 300px;
+
+}
+
+#aerovia{
+    font-family: 'Gill Sans';
+}
+
+#formpago{
+    height: 200px;
+    width: 1250px;
+    color: #051B54;
+    
+}
+
+form p{
+    margin-bottom: 20px;
+    display: inline-block; 
+    margin-right: 10px;
+}
+
+#info{
+    margin-bottom: 20px;
+   
+}
+
+#idayvuelta{
+    border: hidden;
+    margin: 10px;
+}
+
+#vuelo{
+    border: hidden;
+    margin: 10px;
+}
+
+#pasajeros{
+    border: hidden;
+    margin: 10px;
+}
+
+img{
+    width: 451px;
+    height: auto;
+    position: relative;
+    bottom: 23px;
+    border-radius: 5px;
+}

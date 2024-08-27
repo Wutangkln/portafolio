@@ -1,0 +1,238 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f2f7;
+}
+
+nav {
+    background-color: #141010;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.logo-container {
+    justify-content: space-between;
+}
+
+.card-img-top {
+    width: 50%;
+    height: 500px;
+    margin: none;
+    border-radius: 5px;
+}
+
+.card-title,
+.card-body,
+.card-text,
+.card-text-titulo {
+    color: rgb(85, 19, 151);
+}
+
+.card-title {
+    font-size: 28px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-text-titulo {
+    font-weight: bold;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+
+
+.escribir {
+    display: flex;
+    align-items: center;
+}
+
+.msj {
+    color: black;
+    margin-right: 10px;
+    margin-left: 60px;
+}
+
+.escribir textarea {
+    width: 100px;
+    padding: 20px 60px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: #eee;
+    border-radius: 40px;
+}
+
+/* .btn {
+    width: 100px;
+    height: 30px;
+    border-radius: 16px;
+    cursor: pointer;
+    background-color: #806bcd;
+    color: #fff;
+} */
+
+
+
+textarea {
+
+    height: 200px;
+    flex: 1;
+}
+
+.imagen-container {
+    align-items: center;
+    height: 400px;
+    text-align: center;
+    width: 800px
+}
+
+.imagen {
+    width: 200px;
+    height: 500px;
+    margin: 100px;
+}
+
+
+img.zoom {
+    transform: scale(1.5);
+    transition: transform 0.5s;
+}
+
+
+#img-form {
+    border-radius: 46px;
+
+}
+
+
+/* modal */
+
+.container {
+    width: 60%;
+    margin: 5% auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+#botoncontacto {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.row {
+    display: flex;
+}
+
+.col-4 {
+    flex: 40%;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-8 {
+    flex: 60%;
+    padding-left: 15px;
+}
+
+h2 {
+    color: #1FADC1;
+    margin-bottom: 15px;
+}
+
+h5 {
+    color: #444;
+    margin-bottom: 25px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: #eee;
+}
+
+.formulario input[type="radio"] {
+    margin-right: 10px;
+}
+
+.formulario p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#botonformulario {
+    background-color: #FF6F00;
+    color: white;
+    padding: 30px;
+    border: 1px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn:hover {
+    background-color: #e65c00;
+}
+
+footer {
+
+    color: white;
+    background-color: #141010;
+    font-size: 12px;
+}
+
+/* boton más informacion */
+#botonesportafolio {
+    justify-content: center;
+    text-align: center;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 500px
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER -->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="#">Nicolás</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" >INICIO</a></li>
+                    <li><a href="#habilidades" >HABILIDADES</a></li>
+                    <li><a href="#portafolio" >PORTAFOLIO</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive"  >
+                <i class="fa-solid fa-bars" ></i>
+
+            </div>
+        </header>
+
+    </div>
+
+    <!-- INICIO -->
+     <section id="inicio" class="inicio">
+        <div class="content-banner">
+            <div class="container-img">
+                <img  src="./img/yo.png" alt="#">
+            </div>
+            <h1>Nicolás Torres</h1>
+            <h2>Programador</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></i></i></a>
+            </div>
+
+        </div>
+     </section>
+
+     <!-- HABILIDADES -->
+     <section id="habilidades" class="habilidades">
+        <div class="content-section">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Habilidades Tecnicas</h3>
+
+                    <div class="habilidad">
+                        <span>HTML & CSS</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso html_css">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="habilidad">
+                        <span>Javascript</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso javascript">
+                                <span>20%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="col">
+                    <h3>Habilidades Blandas</h3>
+
+                    <div class="habilidad">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso trabajoEnEquipo">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="habilidad">
+                        <span>Resolucion de problemas</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso resolucionDeProblemas">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="habilidad">
+                        <span>Adaptabilidad</span>
+                        <div class="barra-habilidades">
+                            <div class="progreso adaptabilidad">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+
+     </section>
+
+     <!-- PORTAFOLIO -->
+     <section id="portafolio" class="portafolio">
+        <div class="content-section">
+            <h2>PORTAFOLIO</h2>
+            <h3 id="portafolio-h3">Estos proyectos van evolucionando a medida que vamos aprendiendo 8)</h3>
+            <div class="galeria">
+                <div class="proyecto" data-url="./proyecto_responsive/index.html">
+                    <img src="./img/proyecto_responsive.png" alt="">
+                    <div class="overlay">
+                        <h3>Mi primer proyecto</h3>
+                        <p>responsivo</p>
+                    </div>
+                </div>
+                
+
+                <div class="proyecto" data-url="./proyecto_primera_pag/index.html">
+                    <img src="./img/primera_pag.png" alt="">
+                    <div class="overlay">
+                        <h3>Mi primera pagina</h3>
+                        <p>con Boostrap</p>
+                    </div>
+                </div>
+
+                <div class="proyecto" data-url="./proyecto_asistenteVirtual_JS/index.html">
+                    <img src="./img/asistente_virtual.png" alt="">
+                    <div class="overlay">
+                        <h3>Mi primer script</h3>
+                        <p>en Javascript</p>
+                    </div>
+                </div>
+
+                <div class="proyecto" data-url="./proyecto_africa_JS/index.html">
+                    <img src="./img/africa.png" alt="">
+                    <div class="overlay">
+                        <h3>Modificacion del DOM</h3>
+                        <p>con Javascript</p>
+                    </div>
+                </div>
+
+                <div class="proyecto" data-url="./proyecto_aerolinea/index.html">
+                    <img src="./img/aerolinea.png" alt="">
+                    <div class="overlay">
+                        <h3>Pagina de aerolinea</h3>
+                        <p>aplicando Boostrap</p>
+                    </div>
+                </div>
+
+                <div class="proyecto" data-url="./proyecto_desarrollo_web/index.html">
+                    <img src="./img/desarrollo_pagina_web.png" alt="">
+                    <div class="overlay">
+                        <h3>Trabajo en conjunto con git</h3>
+                        <p>Desarrollando la pestaña contacto</p>
+                    </div>
+                </div>
+
+              
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- CONTACTO -->
+      <section class="contacto" id="contacto">
+        <div class="content-section">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- FORMULARIO -->
+                <div class="col">
+                    <input type="text" required placeholder="Tu Nombre">
+                    <input type="number" required placeholder="Numero Telefonico">
+                    <input type="email"  required placeholder="Correo Electronico">
+                    <input type="text"  required  placeholder="Tema">
+                    <textarea name=""  required id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button id="submitButton">
+                        Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                    <div id="successMessage" style="display:none; color: green; margin-top: 10px;">
+                        Mensaje enviado con éxito, gracias.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+      </section>
+
+     <!-- FOOTER -->
+     <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></i></i></a>
+        </div>
+        
+        
+     </footer>
+
+     <script src="script.js"></script>
+</body>
+</html>
